@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener{
-            val intent = Intent(this, LoginCPFActivity::class.java)
-            startActivity(intent)
+
+            startActivity(LoginCPFActivity.newIntent(this))
         }
     }
 }

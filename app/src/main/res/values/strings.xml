@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Stage Project</string>
+    <string name="login_type_cpf">Digite seu CPF:</string>
+    <string name="login_type_password">Senha:</string>
+    <string name="login_password_button">Esqueci minha senha</string>
+    <string name="login_password_remember_cpf">Lembrar CPF</string>
+
+
+    <!--    nome_da_tela_nome_da_string-->
 </resources>

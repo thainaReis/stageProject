@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginPasswordActivity"></activity>
+        <activity android:name=".service.model.LoginResponse"></activity>
+        <activity android:name=".data.UserApi" />
+        <activity android:name=".UsersViewModel" />
+        <activity android:name=".Users" />
+        <activity android:name=".LoginPasswordActivity" />
         <activity android:name=".LoginCPFActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
