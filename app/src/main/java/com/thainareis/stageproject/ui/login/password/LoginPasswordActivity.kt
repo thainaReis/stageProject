@@ -1,4 +1,4 @@
-package com.thainareis.stageproject
+package com.thainareis.stageproject.ui.login.password
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_login_password.*
 
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import com.thainareis.stageproject.R
 
 
 class LoginPasswordActivity : AppCompatActivity() {

@@ -1,10 +1,12 @@
-package com.thainareis.stageproject
+package com.thainareis.stageproject.ui.login.cpf
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import com.thainareis.stageproject.ui.login.password.LoginPasswordActivity
+import com.thainareis.stageproject.R
 import com.thainareis.stageproject.utils.CPFUtil
 import com.thainareis.stageproject.utils.Mask
 import kotlinx.android.synthetic.main.activity_login_cpf.*
@@ -24,7 +26,12 @@ class LoginCPFActivity : AppCompatActivity() {
 
             if(CPFUtil.ValidateCPF(cpf.text.toString())) {
 
-                startActivity(LoginPasswordActivity.newIntent(this, cpf.text.toString()))
+                startActivity(
+                    LoginPasswordActivity.newIntent(
+                        this,
+                        cpf.text.toString()
+                    )
+                )
                 println("cpf" + cpf.text.toString())
 
             }

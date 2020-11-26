@@ -1,14 +1,15 @@
-package com.thainareis.stageproject.service.model
+package com.thainareis.stageproject.ui.login.password
 
 import android.util.Log
 import com.thainareis.stageproject.service.StageProjectService
+import com.thainareis.stageproject.service.model.LoginResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class LoginViewModel {
+class LoginPasswordViewModel {
 
     fun init() {
         val retrofit: Retrofit = Retrofit.Builder()

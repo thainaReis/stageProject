@@ -2,6 +2,7 @@ package com.thainareis.stageproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.thainareis.stageproject.ui.login.cpf.LoginCPFActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
