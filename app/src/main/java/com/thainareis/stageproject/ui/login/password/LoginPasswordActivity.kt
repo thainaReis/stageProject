@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_login_password.*
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import com.thainareis.stageproject.R
+import com.thainareis.stageproject.ui.home.HomeActivity
 
 
 class LoginPasswordActivity : AppCompatActivity() {
@@ -34,6 +35,9 @@ class LoginPasswordActivity : AppCompatActivity() {
                 passwordEditText.transformationMethod = PasswordTransformationMethod.getInstance()
                 passWordVisibly = true
             }
+        }
+        goToHomePageImage.setOnClickListener{
+            HomeActivity.newIntent(this)
         }
 
     }
